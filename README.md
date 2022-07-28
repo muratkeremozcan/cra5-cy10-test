@@ -19,3 +19,7 @@ yarn cy:open-ct
 <img src="./cra5-cy10-ct-crash.gif">
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/54e5cb90hk1ajzckmj5y.png)
+
+Workaround:
+
+If you run into the problem, the solution is [here](https://github.com/cypress-io/cypress/issues/22762#issuecomment-1185677066); use any other port than 8080 for the dev server.
